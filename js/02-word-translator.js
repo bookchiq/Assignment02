@@ -3,9 +3,9 @@ function wordTranslator() {
     let languageCode = prompt("Enter a language code (es, de, en, fr):");
 
     // Set up the language phrases.
-    let frenchPhrase = "Bonjour le monde!";
-    let spanishPhrase = "¡Hola Mundo!";
-    let germanPhrase = "Hallo Welt!";
+    let frenchPhrase = '"Hello World" translated to French is: Bonjour le monde!';
+    let spanishPhrase = '"Hello World" translated to Spanish is: ¡Hola Mundo!';
+    let germanPhrase = '"Hello World" translated to German is: Hallo Welt!';
     let englishPhrase = "Hello World!";
 
     // Translate the word "Hello World!" into the language specified by the user.
